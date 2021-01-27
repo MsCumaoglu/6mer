@@ -21,5 +21,9 @@ namespace _6mer.Controllers
         {
             return View();
         }
+        public ActionResult UnderConstruction()
+        {
+            return View();
+        }
     }
 }
