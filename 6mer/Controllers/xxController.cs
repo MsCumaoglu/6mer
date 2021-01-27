@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace _6mer.Controllers
 {
-    public class DefaultController : Controller
+    public class xxController : Controller
     {
-        // GET: Default
+        // GET: xx
         public ActionResult Index()
         {
             return View();
