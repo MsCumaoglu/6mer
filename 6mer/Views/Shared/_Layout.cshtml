@@ -120,7 +120,7 @@
                                padding-right: 10px !important;
                                margin:0 5px !important;">من نحن <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item dropdown btn">
+                        <li class="nav-item dropdown @ViewBag.companie btn">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton2" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"
                                style="font-family:Cairo !important;
@@ -132,7 +132,7 @@
                                 شركاتنا <span class="sr-only">(current)</span>
                             </a>
                             <div class="dropdown-menu sub-nav" aria-labelledby="dropdownMenuLink_1">
-                                <a class="dropdown-item" href="#">Action in</a>
+                                <a class="dropdown-item" href="@Url.Action("Index","Boyut")">Boyut</a>
                                 <a class="dropdown-item" href="#">Another action</a>
                                 <a class="dropdown-item" href="#">Something else here</a>
                             </div>
