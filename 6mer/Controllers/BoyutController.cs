@@ -13,5 +13,9 @@ namespace _6mer.Controllers
         {
             return View();
         }
+        public ActionResult Single()
+        {
+            return View();
+        }
     }
 }
