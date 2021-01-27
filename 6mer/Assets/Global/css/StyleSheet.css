@@ -1,0 +1,117 @@
+﻿body {
+    font-family: "Cairo" !important;
+}
+
+ul.navbar-nav li.btn {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+ul.navbar-nav li.btn {
+    transition: all .2s ease-in-out;
+    margin:2px;
+}
+
+    ul.navbar-nav li.btn a {
+        font-family: "Cairo" !important;
+        font-size: 20px !important;
+        margin: 0px 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin: 0 10px !important;
+        color: white !important;
+        transition: all .2s ease-in-out;
+    }
+
+    ul.navbar-nav li.btn:hover {
+        background-color: #f5bc04;
+    }
+
+        ul.navbar-nav li.btn:hover a {
+            color: white !important;
+        }
+
+
+.hide {
+    visibility: hidden;
+}
+
+ul.navbar-nav li.btn div.sub-nav {
+    padding: 10px;
+}
+
+    ul.navbar-nav li.btn div.sub-nav a {
+        color: black !important;
+        text-align: right;
+        padding: 5px 5px;
+        width: 100% auto;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+.aktife {
+    background-color: #f5bc04;
+}
+.active a{
+    color:white;
+}
+/*ana sayfa resimler ayarı*/
+.fh5co_suceefh5co_height_position_absolute_font_2 {
+    left: 0% !important;
+    padding: 0 20px
+}
+
+    .fh5co_suceefh5co_height_position_absolute_font_2:hover {
+        transform: scale(1.08);
+        transition-duration: 2s;
+    }
+
+.fh5co_suceefh5co_height_position_absolute_font {
+    left: 0%;
+    padding: 0 20px
+}
+
+    .fh5co_suceefh5co_height_position_absolute_font:hover {
+        transform: scale(1.08);
+        transition-duration: 2s;
+    }
+
+
+.btn-toggel {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    margin-top: -5px !important;
+}
+
+/*  preloader  */
+.pageloader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #222;
+}
+
+.preloader-image {
+    margin-top: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    overflow: auto;
+    animation-name: don;
+    -webkit-animation: 2s infinite linear;
+}
+
+@-webkit-keyframes don {
+    from {
+        -webkit-transform: rotateZ(0);
+    }
+
+    to {
+        -webkit-transform: rotateZ(360);
+    }
+}

@@ -1,0 +1,307 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{44E469EB-90D0-416C-A435-5FE90A2174A7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_6mer</RootNamespace>
+    <AssemblyName>6mer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44301</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="24-news\blog.html" />
+    <Content Include="24-news\Contact_us.html" />
+    <Content Include="24-news\css\animate.css" />
+    <Content Include="24-news\css\bootstrap.css" />
+    <Content Include="24-news\css\media_query.css" />
+    <Content Include="24-news\css\owl.carousel.css" />
+    <Content Include="24-news\css\owl.theme.default.css" />
+    <Content Include="24-news\css\style_1.css" />
+    <Content Include="24-news\images\10-1-1-875x500.jpg" />
+    <Content Include="24-news\images\32-450x260.jpg" />
+    <Content Include="24-news\images\39-324x235.jpg" />
+    <Content Include="24-news\images\abigail-keenan-65477.jpg" />
+    <Content Include="Assets\Global\images\About-banner.jpg" />
+    <Content Include="24-news\images\allef-vinicius-108153.jpg" />
+    <Content Include="24-news\images\ariel-lustre-208615.jpg" />
+    <Content Include="24-news\images\camila-cordeiro-114636.jpg" />
+    <Content Include="Assets\Global\images\contact-us-banner.jpg" />
+    <Content Include="24-news\images\country.png" />
+    <Content Include="24-news\images\download %281%29.jpg" />
+    <Content Include="24-news\images\download %282%29.jpg" />
+    <Content Include="24-news\images\download.jpg" />
+    <Content Include="24-news\images\footer_sub_tipik.png" />
+    <Content Include="24-news\images\joe-gardner-75333.jpg" />
+    <Content Include="24-news\images\logo.png" />
+    <Content Include="24-news\images\nathan-mcbride-229637.jpg" />
+    <Content Include="24-news\images\nick-karvounis-78711.jpg" />
+    <Content Include="24-news\images\office-768x512.jpg" />
+    <Content Include="24-news\images\person_1.jpg" />
+    <Content Include="24-news\images\photo-1449157291145-7efd050a4d0e-578x362.jpg" />
+    <Content Include="24-news\images\ryan-moreno-98837.jpg" />
+    <Content Include="24-news\images\science-578x362.jpg" />
+    <Content Include="24-news\images\seth-doyle-133175.jpg" />
+    <Content Include="24-news\images\vil-son-35490.jpg" />
+    <Content Include="24-news\images\white_logo.png" />
+    <Content Include="24-news\images\zack-minor-15104.jpg" />
+    <Content Include="24-news\index.html" />
+    <Content Include="24-news\js\bootstrap.js" />
+    <Content Include="24-news\js\jquery.stellar.min.js" />
+    <Content Include="24-news\js\jquery.waypoints.min.js" />
+    <Content Include="24-news\js\main.js" />
+    <Content Include="24-news\js\modernizr-3.5.0.min.js" />
+    <Content Include="24-news\js\owl.carousel.min.js" />
+    <Content Include="24-news\single.html" />
+    <Content Include="Assets\Global\css\animate.css" />
+    <Content Include="Assets\Global\css\bootstrap.css" />
+    <Content Include="Assets\Global\css\media_query.css" />
+    <Content Include="Assets\Global\css\owl.carousel.css" />
+    <Content Include="Assets\Global\css\owl.theme.default.css" />
+    <Content Include="Assets\Global\css\StyleSheet.css" />
+    <Content Include="Assets\Global\css\style_1.css" />
+    <Content Include="Assets\Global\images\10-1-1-875x500.jpg" />
+    <Content Include="Assets\Global\images\209x326.jpg" />
+    <Content Include="Assets\Global\images\32-450x260.jpg" />
+    <Content Include="Assets\Global\images\324x235.jpg" />
+    <Content Include="Assets\Global\images\39-324x235.jpg" />
+    <Content Include="Assets\Global\images\480x300_5.jpg" />
+    <Content Include="Assets\Global\images\480x320.jpg" />
+    <Content Include="Assets\Global\images\480x320_1.jpg" />
+    <Content Include="Assets\Global\images\480x320_2.jpg" />
+    <Content Include="Assets\Global\images\480x320_3.jpg" />
+    <Content Include="Assets\Global\images\480x320_4.jpeg" />
+    <Content Include="Assets\Global\images\578x362.png" />
+    <Content Include="Assets\Global\images\960x640.jpg" />
+    <Content Include="Assets\Global\images\A237x200.jpg" />
+    <Content Include="Assets\Global\images\A237x200_1.jpg" />
+    <Content Include="Assets\Global\images\A480x274.jpg" />
+    <Content Include="Assets\Global\images\A480x320.jpg" />
+    <Content Include="Assets\Global\images\A480x320_1.jpg" />
+    <Content Include="Assets\Global\images\abigail-keenan-65477.jpg" />
+    <Content Include="Assets\Global\images\allef-vinicius-108153.jpg" />
+    <Content Include="Assets\Global\images\ariel-lustre-208615.jpg" />
+    <Content Include="Assets\Global\images\camila-cordeiro-114636.jpg" />
+    <Content Include="Assets\Global\images\country.png" />
+    <Content Include="Assets\Global\images\D209x326.jpg" />
+    <Content Include="Assets\Global\images\D237x200.jpg" />
+    <Content Include="Assets\Global\images\download %281%29.jpg" />
+    <Content Include="Assets\Global\images\download %282%29.jpg" />
+    <Content Include="Assets\Global\images\download.jpg" />
+    <Content Include="Assets\Global\images\footerLogo.png" />
+    <Content Include="Assets\Global\images\footer_sub_tipik.png" />
+    <Content Include="Assets\Global\images\joe-gardner-75333.jpg" />
+    <Content Include="Assets\Global\images\logo.png" />
+    <Content Include="Assets\Global\images\nathan-mcbride-229637.jpg" />
+    <Content Include="Assets\Global\images\nick-karvounis-78711.jpg" />
+    <Content Include="Assets\Global\images\office-768x512.jpg" />
+    <Content Include="Assets\Global\images\person_1.jpg" />
+    <Content Include="Assets\Global\images\photo-1449157291145-7efd050a4d0e-578x362.jpg" />
+    <Content Include="Assets\Global\images\ryan-moreno-98837.jpg" />
+    <Content Include="Assets\Global\images\safLogo.png" />
+    <Content Include="Assets\Global\images\science-578x362.jpg" />
+    <Content Include="Assets\Global\images\seth-doyle-133175.jpg" />
+    <Content Include="Assets\Global\images\T209x326.jpg" />
+    <Content Include="Assets\Global\images\T209x326_1.jpg" />
+    <Content Include="Assets\Global\images\T237x200.jpg" />
+    <Content Include="Assets\Global\images\uzunLogo.png" />
+    <Content Include="Assets\Global\images\uzunLogoWhite.png" />
+    <Content Include="Assets\Global\images\vil-son-35490.jpg" />
+    <Content Include="Assets\Global\images\white_logo.png" />
+    <Content Include="Assets\Global\images\zack-minor-15104.jpg" />
+    <Content Include="Assets\Global\js\bootstrap.js" />
+    <Content Include="Assets\Global\js\jquery.stellar.min.js" />
+    <Content Include="Assets\Global\js\jquery.waypoints.min.js" />
+    <Content Include="Assets\Global\js\main.js" />
+    <Content Include="Assets\Global\js\modernizr-3.5.0.min.js" />
+    <Content Include="Assets\Global\js\owl.carousel.min.js" />
+    <Content Include="Assets\Global\vendor\fa\css\font-awesome.css" />
+    <Content Include="Assets\Global\vendor\fa\css\font-awesome.min.css" />
+    <Content Include="Assets\Global\vendor\fa\fonts\fontawesome-webfont.svg" />
+    <Content Include="Assets\Global\vendor\fa\HELP-US-OUT.txt" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="24-news\css\bootstrap.css.map" />
+    <Content Include="24-news\css\style_1.css.map" />
+    <Content Include="24-news\sass\style_1.scss" />
+    <Content Include="Assets\Global\css\bootstrap.css.map" />
+    <Content Include="Assets\Global\css\style_1.css.map" />
+    <Content Include="Assets\Global\sass\style_1.scss" />
+    <Content Include="Assets\Global\vendor\fa\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\Global\vendor\fa\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Assets\Global\vendor\fa\fonts\fontawesome-webfont.woff" />
+    <Content Include="Assets\Global\vendor\fa\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Assets\Global\vendor\fa\fonts\FontAwesome.otf" />
+    <Content Include="Assets\Global\vendor\fa\less\animated.less" />
+    <Content Include="Assets\Global\vendor\fa\less\bordered-pulled.less" />
+    <Content Include="Assets\Global\vendor\fa\less\core.less" />
+    <Content Include="Assets\Global\vendor\fa\less\fixed-width.less" />
+    <Content Include="Assets\Global\vendor\fa\less\font-awesome.less" />
+    <Content Include="Assets\Global\vendor\fa\less\icons.less" />
+    <Content Include="Assets\Global\vendor\fa\less\larger.less" />
+    <Content Include="Assets\Global\vendor\fa\less\list.less" />
+    <Content Include="Assets\Global\vendor\fa\less\mixins.less" />
+    <Content Include="Assets\Global\vendor\fa\less\path.less" />
+    <Content Include="Assets\Global\vendor\fa\less\rotated-flipped.less" />
+    <Content Include="Assets\Global\vendor\fa\less\screen-reader.less" />
+    <Content Include="Assets\Global\vendor\fa\less\stacked.less" />
+    <Content Include="Assets\Global\vendor\fa\less\variables.less" />
+    <Content Include="Assets\Global\vendor\fa\scss\font-awesome.scss" />
+    <Content Include="Assets\Global\vendor\fa\scss\_animated.scss" />
+    <Content Include="Assets\Global\vendor\fa\scss\_bordered-pulled.scss" />
+    <Content Include="Assets\Global\vendor\fa\scss\_core.scss" />
+    <Content Include="Assets\Global\vendor\fa\scss\_fixed-width.scss" />
+    <Content Include="Assets\Global\vendor\fa\scss\_icons.scss" />
+    <Content Include="Assets\Global\vendor\fa\scss\_larger.scss" />
+    <Content Include="Assets\Global\vendor\fa\scss\_list.scss" />
+    <Content Include="Assets\Global\vendor\fa\scss\_mixins.scss" />
+    <Content Include="Assets\Global\vendor\fa\scss\_path.scss" />
+    <Content Include="Assets\Global\vendor\fa\scss\_rotated-flipped.scss" />
+    <Content Include="Assets\Global\vendor\fa\scss\_screen-reader.scss" />
+    <Content Include="Assets\Global\vendor\fa\scss\_stacked.scss" />
+    <Content Include="Assets\Global\vendor\fa\scss\_variables.scss" />
+    <None Include="packages.config" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Assets\Pages\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50289</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44301/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
