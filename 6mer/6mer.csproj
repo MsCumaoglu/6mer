@@ -197,11 +197,21 @@
     <Content Include="Assets\Global\vendor\fa\css\font-awesome.min.css" />
     <Content Include="Assets\Global\vendor\fa\fonts\fontawesome-webfont.svg" />
     <Content Include="Assets\Global\vendor\fa\HELP-US-OUT.txt" />
+    <Content Include="Assets\Pages\Boyut\icomoon.css" />
+    <Content Include="Assets\Pages\Boyut\jquery.countTo.js" />
+    <Content Include="Assets\Pages\Boyut\jquery.magnific-popup.min.js" />
+    <Content Include="Assets\Pages\Boyut\magnific-popup-options.js" />
+    <Content Include="Assets\Pages\Boyut\magnific-popup.css" />
+    <Content Include="Assets\Pages\Boyut\main.js" />
+    <Content Include="Assets\Pages\Boyut\style.css" />
+    <Content Include="Assets\Pages\Boyut\themify-icons.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BoyutController.cs" />
+    <Compile Include="Controllers\CarController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -254,6 +264,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Boyut\Index.cshtml" />
+    <Content Include="Views\Car\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -263,7 +275,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\Pages\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
