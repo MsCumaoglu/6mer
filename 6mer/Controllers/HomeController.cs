@@ -25,5 +25,9 @@ namespace _6mer.Controllers
         {
             return View();
         }
+        public ActionResult Error()
+        {
+            return View();
+        }
     }
 }
