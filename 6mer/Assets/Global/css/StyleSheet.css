@@ -58,21 +58,23 @@ ul.navbar-nav li.btn div.sub-nav {
 /*ana sayfa resimler ayarı*/
 .fh5co_suceefh5co_height_position_absolute_font_2 {
     left: 0% !important;
-    padding: 0 20px
+    padding: 0 ;
+    padding-right:25px;
 }
 
     .fh5co_suceefh5co_height_position_absolute_font_2:hover {
-        transform: scale(1.08);
+        transform: scale(1.06);
         transition-duration: 2s;
     }
 
 .fh5co_suceefh5co_height_position_absolute_font {
-    left: 0%;
-    padding: 0 20px
+    left: 0% !important;
+    padding: 0;
+    padding-right: 25px;
 }
 
     .fh5co_suceefh5co_height_position_absolute_font:hover {
-        transform: scale(1.08);
+        transform: scale(1.06);
         transition-duration: 2s;
     }
 

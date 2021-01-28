@@ -343,7 +343,7 @@ a, a:hover {
 	@include transition(all 0.5s);
 }
 .fh5co_news_img > img {
-	height: 260px;
+	height: 100%;
 	min-width: 100%;
 }
 .c_b {
@@ -441,12 +441,12 @@ a, a:hover {
 	font-weight: 800;
 }
 .fh5co_mini_time {
-	font-size: 14px;
+	font-size: 18px;
 	color: #222;
 	display: inline-block;
 }
 .fh5co_consectetur {
-	font-size: 14px;
+	font-size: 18px;
 	color: #777;
 }
 .fh5co_gaming_topikk {
@@ -521,7 +521,7 @@ a, a:hover {
 }
 .footer_sub_about {
 	color: #C9C8C8;
-	font-size: 14px;
+	font-size: 18px;
 }
 .fh5co_display_table_footer {
 	height: 40px;
@@ -701,12 +701,12 @@ a, a:hover {
 .fh5co_contact_us_text_box {
 	@include border-radius(0px !important);
 	border: 1px solid #777 !important;
-	font-size: 14px !important;
+	font-size: 18px !important;
 }
 .fh5co_contact_us_text_area {
 	@include border-radius(0px !important);
 	border: 1px solid #777 !important;
-	font-size: 14px !important;
+	font-size: 18px !important;
 	height: 100px;
 	resize: none;
 }
@@ -729,14 +729,14 @@ a, a:hover {
 	background: #c7c7c7!important;
 	border: 0!important;
 	@include border-radius(0!important);
-	font-size: 14px!important;
+	font-size: 18px!important;
 	letter-spacing: 1px!important;
 }
 .fh5co_fh5co_bg_contcat {
 	background: #f1f1f1;
 }
 .fh5co_p_font_size {
-	font-size: 14px;
+	font-size: 18px;
 }
 .fh5co_contact_text_box {
 	@include border-radius(0!important);

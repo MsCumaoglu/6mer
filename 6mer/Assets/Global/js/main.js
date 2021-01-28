@@ -3,14 +3,13 @@
     var owlCarousel = function () {
         $('#slider1').owlCarousel({
             rtl: true,
-            loop: false,
+            loop: true,
             margin: 10,
             dots: false,
             mouseDrag: true,
             autoplay: true,
-            autoplaySpeed:200,
-            autoplayTimeout: 1500,
-            autoplayHoverPause:true,
+            autoplaySpeed: 2500,
+            autoplayHoverPause: true,
             nav: true,
             navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
             responsive: {
@@ -28,9 +27,12 @@
 
         $('#slider2').owlCarousel({
             rtl: true,
-            loop: false,
+            loop: true,
             margin: 10,
             dots: false,
+            mouseDrag: true,
+            autoplay: true,
+            autoplaySpeed: 1500,
             nav: true,
             navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
             responsive: {
