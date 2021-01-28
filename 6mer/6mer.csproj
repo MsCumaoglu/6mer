@@ -204,7 +204,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Boyut\Index.cshtml" />
-    <Content Include="Views\Car\Index.cshtml" />
     <Content Include="Views\Boyut\Single.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
